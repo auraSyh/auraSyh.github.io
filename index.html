@@ -1,34 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Suwi Jawa</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suwit Jawa</title>
+    <link rel="stylesheet" href="style/suwitjawa.css">
 </head>
-<body>
-<div class="container">
-    <h1 class="judul">Suwit Jawa</h1>
-    <div class="area">
-        <div class="computer-area">
-            <img src="img/semut.png" alt="computer">
+<body class="bg-bg-pattern">
+    <h1 class="text-center text-5xl mt-6">Suwit Jawa</h1>
+    <div class="sm:container h-screen w-screen sm:w-60vw sm:h-75vh mt-8 rounded-2xl overflow-hidden mx-auto flex relative flex-col justify-between">
+        <div class="bg-cyan-200 w-full h-48p flex justify-center items-center">
+            <img src="img/gajah.png" class="rounded-full h-48p w-25p" alt="">
         </div>
-        <div class="user-area">
-            <ul>
-                <li><img src="img/semut.png" alt=""></li>
-                <li><img src="img/gajah.png" alt=""></li>
-                <li><img src="img/orang.png" alt=""></li>
-            </ul>
+        <div class="h-48p bg-pink-300 w-full flex justify-around items-center">
+            <img src="img/gajah.png" class="rounded-full h-48p w-25p" alt="">
+            <img src="img/orang.png" class="rounded-full h-48p w-25p" alt="">
+            <img src="img/semut.png" class="rounded-full h-48p w-25p" alt="">
         </div>
+        <div class="absolute text-lg border-2 rounded-xl border-orange-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  h-12p w-20p p-2 bg-white flex justify-center items-center"><p>Result</p></div>
     </div>
-    <div class="result">Kalah!</div>
-</div>
-
-<div class="footer">Website dalam tahap pengembangan</div>
+    
 </body>
 </html>
